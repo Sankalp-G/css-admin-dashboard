@@ -1,4 +1,36 @@
 .header {
   display: grid;
   grid-template-rows: 2.2fr 3fr;
+  padding-left: 4rem;
+  padding-right: 5rem;
+}
+
+.status-bar {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 1.5rem;
+}
+
+.search {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+  grid-template-columns: auto 70%;
+}
+
+.search input {
+  height: 110%;
+  appearance: none;
+  background-color: #E2E8F0;
+  border-radius: 9999px;
+  border: 0;
+}
+
+.profile {
+  width: 2.5rem;
+  border-radius: 9999px;
 }
