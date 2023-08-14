@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid cadetblue;
+  /* border: 1px solid purple; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -13,4 +14,21 @@
 
 .sidebar {
   grid-row: 1 / 4;
+  background-color: #06b6d4;
+  color: white;
+  display: grid;
+  align-content: start;
+  gap: 3rem;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.sidebar section {
+  display: grid;
+  gap: 14px;
+}
+
+.sidebar-item {
+  font-weight: bold;
+  font-size: large;
 }
