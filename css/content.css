@@ -46,3 +46,31 @@
   margin: 1em 0;
   padding: 0;
 }
+
+.trending .card {
+  display: grid;
+  gap: 1rem;
+}
+
+.trending-profile {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.trending-profile .username {
+  font-weight: bold;
+}
+
+.trending-profile .projectname {
+  color: #555;
+}
+
+.trending .card img {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  box-shadow: 0px 7px 17px -6px rgba(0,0,0,0.3);
+}
