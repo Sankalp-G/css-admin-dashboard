@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-  <div class="container">
-    <div class="sidebar">
-      <h1 style="line-height: 100%;">Dashboard</h2>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1 style="line-height: 100%">
+          <img class="svg large" src="./assets/view-dashboard.svg" />
+          Dashboard
+        </h1>
 
-      <section>
-        <div class="sidebar-item">Home</div>
-        <div class="sidebar-item">Profile</div>
-        <div class="sidebar-item">Messages</div>
-        <div class="sidebar-item">History</div>
-        <div class="sidebar-item">Tasks</div>
-        <div class="sidebar-item">Communities</div>
-      </section>
+        <section>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/home.svg" />
+            Home
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/card-account-details-outline.svg" />
+            Profile
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/message.svg" />
+            Messages
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/history.svg" />
+            History
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/file-multiple.svg" />
+            Tasks
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/account-group.svg" />
+            Communities
+          </div>
+        </section>
 
-      <section>
-        <div class="sidebar-item">Setting</div>
-        <div class="sidebar-item">Support</div>
-        <div class="sidebar-item">Privacy</div>
-      </section>
+        <section>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/cog.svg" />
+            Setting
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/help-box-outline.svg" />
+            Support
+          </div>
+          <div class="sidebar-item">
+            <img class="svg" src="./assets/shield-check.svg" />
+            Privacy
+          </div>
+        </section>
+      </div>
+
+      <div class="header"></div>
+
+      <div class="action-bar"></div>
+
+      <div class="content"></div>
     </div>
-
-    <div class="header"></div>
-
-    <div class="action-bar"></div>
-
-    <div class="content"></div>
-  </div>
-</body>
+  </body>
 </html>
