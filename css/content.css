@@ -1,0 +1,18 @@
+.content {
+  background-color: #f0f9ff;
+  box-shadow: inset 0px 10px 5px -8px rgba(0,0,0,0.1);
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.content .projects {
+  grid-row: span 2;
+}
+
+.content header {
+  padding: 1rem 0;
+  font-weight: 500;
+}
