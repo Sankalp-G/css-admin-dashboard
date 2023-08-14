@@ -1,11 +1,12 @@
 .content {
   background-color: #f0f9ff;
   box-shadow: inset 0px 10px 5px -8px rgba(0,0,0,0.1);
-  grid-template-columns: 4fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto auto;
   display: grid;
   padding: 1rem;
   gap: 1rem;
+  align-items: start;
 }
 
 .content .projects {
@@ -15,4 +16,33 @@
 .content header {
   padding: 1rem 0;
   font-weight: 500;
+}
+
+.announcements, .trending {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.card {
+  background-color: white;
+  padding: 1.8rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 7px 17px -6px rgba(0,0,0,0.2);
+}
+
+.content h2 {
+  font-size: 13px;
+}
+
+.content p {
+  font-size: 12px;
+}
+
+.content hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }

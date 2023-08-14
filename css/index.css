@@ -9,7 +9,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 3.1fr 10fr;
+  grid-template-rows: minmax(9.5rem, 3.1fr) 10fr;
 }
 
 .svg {
