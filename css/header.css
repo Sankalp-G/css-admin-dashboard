@@ -30,7 +30,49 @@
   border: 0;
 }
 
-.profile {
+.status-bar .profile {
   width: 2.5rem;
   border-radius: 9999px;
+}
+
+.action-bar {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+}
+
+.action-bar .profile {
+  width: 3.8rem;
+  border-radius: 9999px;
+}
+
+.prompt {
+  font-weight: bold;
+}
+
+.prompt p:nth-child(1) {
+  font-size: x-small;
+}
+
+.prompt p:nth-child(2) {
+  font-size: large;
+  line-height: 1.8rem;
+}
+
+.button-group {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+}
+
+.button-group button {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 9999px;
+  border: 0;
+  background-color: #06B6D4;
+  color: white;
+  font-weight: bold;
 }
